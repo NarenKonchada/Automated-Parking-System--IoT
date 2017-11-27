@@ -1,0 +1,7 @@
+Acquire::http::Proxy "http://proxy.aspiresys.com:3128";
+
+Image :
+raspistill -o image.jpg
+
+Video :
+raspivid -o video.h264-t 10000
